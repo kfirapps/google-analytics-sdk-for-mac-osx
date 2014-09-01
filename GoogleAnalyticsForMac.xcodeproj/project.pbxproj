@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FE3E46A19AC6B6D00701830 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE3E46919AC6B6D00701830 /* Cocoa.framework */; };
+		4FE3E47419AC6B6D00701830 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FE3E47219AC6B6D00701830 /* InfoPlist.strings */; };
+		4FE3E47619AC6B6D00701830 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3E47519AC6B6D00701830 /* main.m */; };
+		4FE3E47A19AC6B6D00701830 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4FE3E47819AC6B6D00701830 /* Credits.rtf */; };
+		4FE3E47D19AC6B6D00701830 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3E47C19AC6B6D00701830 /* AppDelegate.m */; };
+		4FE3E48019AC6B6D00701830 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FE3E47E19AC6B6D00701830 /* MainMenu.xib */; };
+		4FE3E48219AC6B6D00701830 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE3E48119AC6B6D00701830 /* Images.xcassets */; };
+		4FE3E48919AC6B6D00701830 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE3E48819AC6B6D00701830 /* XCTest.framework */; };
+		4FE3E48A19AC6B6D00701830 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE3E46919AC6B6D00701830 /* Cocoa.framework */; };
+		4FE3E49219AC6B6D00701830 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4FE3E49019AC6B6D00701830 /* InfoPlist.strings */; };
+		4FE3E49419AC6B6D00701830 /* GoogleAnalyticsForMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3E49319AC6B6D00701830 /* GoogleAnalyticsForMacTests.m */; };
+		4FE3E4FF19AC7B1500701830 /* AnalyticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3E4F819AC7B1500701830 /* AnalyticsManager.m */; };
+		4FE3E50019AC7B1500701830 /* GARequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3E4FA19AC7B1500701830 /* GARequest.m */; };
+		4FE3E50119AC7B1500701830 /* GATracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3E4FC19AC7B1500701830 /* GATracker.m */; };
+		4FE3E50219AC7B1500701830 /* GAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE3E4FE19AC7B1500701830 /* GAUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FE3E48B19AC6B6D00701830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FE3E45E19AC6B6D00701830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FE3E46519AC6B6D00701830;
+			remoteInfo = GoogleAnalyticsForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FE3E46619AC6B6D00701830 /* GoogleAnalyticsForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleAnalyticsForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE3E46919AC6B6D00701830 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4FE3E46C19AC6B6D00701830 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4FE3E46D19AC6B6D00701830 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4FE3E46E19AC6B6D00701830 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4FE3E47119AC6B6D00701830 /* GoogleAnalyticsForMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleAnalyticsForMac-Info.plist"; sourceTree = "<group>"; };
+		4FE3E47319AC6B6D00701830 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FE3E47519AC6B6D00701830 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FE3E47719AC6B6D00701830 /* GoogleAnalyticsForMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoogleAnalyticsForMac-Prefix.pch"; sourceTree = "<group>"; };
+		4FE3E47919AC6B6D00701830 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4FE3E47B19AC6B6D00701830 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FE3E47C19AC6B6D00701830 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FE3E47F19AC6B6D00701830 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4FE3E48119AC6B6D00701830 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4FE3E48719AC6B6D00701830 /* GoogleAnalyticsForMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleAnalyticsForMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE3E48819AC6B6D00701830 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4FE3E48F19AC6B6D00701830 /* GoogleAnalyticsForMacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleAnalyticsForMacTests-Info.plist"; sourceTree = "<group>"; };
+		4FE3E49119AC6B6D00701830 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4FE3E49319AC6B6D00701830 /* GoogleAnalyticsForMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleAnalyticsForMacTests.m; sourceTree = "<group>"; };
+		4FE3E4F719AC7B1500701830 /* AnalyticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsManager.h; sourceTree = "<group>"; };
+		4FE3E4F819AC7B1500701830 /* AnalyticsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsManager.m; sourceTree = "<group>"; };
+		4FE3E4F919AC7B1500701830 /* GARequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GARequest.h; sourceTree = "<group>"; };
+		4FE3E4FA19AC7B1500701830 /* GARequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GARequest.m; sourceTree = "<group>"; };
+		4FE3E4FB19AC7B1500701830 /* GATracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GATracker.h; sourceTree = "<group>"; };
+		4FE3E4FC19AC7B1500701830 /* GATracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GATracker.m; sourceTree = "<group>"; };
+		4FE3E4FD19AC7B1500701830 /* GAUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAUtils.h; sourceTree = "<group>"; };
+		4FE3E4FE19AC7B1500701830 /* GAUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FE3E46319AC6B6D00701830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE3E46A19AC6B6D00701830 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE3E48419AC6B6D00701830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE3E48A19AC6B6D00701830 /* Cocoa.framework in Frameworks */,
+				4FE3E48919AC6B6D00701830 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FE3E45D19AC6B6D00701830 = {
+			isa = PBXGroup;
+			children = (
+				4FE3E49D19AC6B7B00701830 /* 3rd Party */,
+				4FE3E46F19AC6B6D00701830 /* GoogleAnalyticsForMac */,
+				4FE3E48D19AC6B6D00701830 /* GoogleAnalyticsForMacTests */,
+				4FE3E46819AC6B6D00701830 /* Frameworks */,
+				4FE3E46719AC6B6D00701830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FE3E46719AC6B6D00701830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FE3E46619AC6B6D00701830 /* GoogleAnalyticsForMac.app */,
+				4FE3E48719AC6B6D00701830 /* GoogleAnalyticsForMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FE3E46819AC6B6D00701830 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FE3E46919AC6B6D00701830 /* Cocoa.framework */,
+				4FE3E48819AC6B6D00701830 /* XCTest.framework */,
+				4FE3E46B19AC6B6D00701830 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FE3E46B19AC6B6D00701830 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FE3E46C19AC6B6D00701830 /* AppKit.framework */,
+				4FE3E46D19AC6B6D00701830 /* CoreData.framework */,
+				4FE3E46E19AC6B6D00701830 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4FE3E46F19AC6B6D00701830 /* GoogleAnalyticsForMac */ = {
+			isa = PBXGroup;
+			children = (
+				4FE3E47B19AC6B6D00701830 /* AppDelegate.h */,
+				4FE3E47C19AC6B6D00701830 /* AppDelegate.m */,
+				4FE3E47E19AC6B6D00701830 /* MainMenu.xib */,
+				4FE3E48119AC6B6D00701830 /* Images.xcassets */,
+				4FE3E47019AC6B6D00701830 /* Supporting Files */,
+			);
+			path = GoogleAnalyticsForMac;
+			sourceTree = "<group>";
+		};
+		4FE3E47019AC6B6D00701830 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FE3E47119AC6B6D00701830 /* GoogleAnalyticsForMac-Info.plist */,
+				4FE3E47219AC6B6D00701830 /* InfoPlist.strings */,
+				4FE3E47519AC6B6D00701830 /* main.m */,
+				4FE3E47719AC6B6D00701830 /* GoogleAnalyticsForMac-Prefix.pch */,
+				4FE3E47819AC6B6D00701830 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FE3E48D19AC6B6D00701830 /* GoogleAnalyticsForMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FE3E49319AC6B6D00701830 /* GoogleAnalyticsForMacTests.m */,
+				4FE3E48E19AC6B6D00701830 /* Supporting Files */,
+			);
+			path = GoogleAnalyticsForMacTests;
+			sourceTree = "<group>";
+		};
+		4FE3E48E19AC6B6D00701830 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FE3E48F19AC6B6D00701830 /* GoogleAnalyticsForMacTests-Info.plist */,
+				4FE3E49019AC6B6D00701830 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FE3E49D19AC6B7B00701830 /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				4FE3E4F619AC7B1500701830 /* GoogleAnalytics */,
+			);
+			name = "3rd Party";
+			sourceTree = "<group>";
+		};
+		4FE3E4F619AC7B1500701830 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				4FE3E4F719AC7B1500701830 /* AnalyticsManager.h */,
+				4FE3E4F819AC7B1500701830 /* AnalyticsManager.m */,
+				4FE3E4F919AC7B1500701830 /* GARequest.h */,
+				4FE3E4FA19AC7B1500701830 /* GARequest.m */,
+				4FE3E4FB19AC7B1500701830 /* GATracker.h */,
+				4FE3E4FC19AC7B1500701830 /* GATracker.m */,
+				4FE3E4FD19AC7B1500701830 /* GAUtils.h */,
+				4FE3E4FE19AC7B1500701830 /* GAUtils.m */,
+			);
+			name = GoogleAnalytics;
+			path = "GoogleAnalyticsForMac/3rd Party/GoogleAnalytics";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FE3E46519AC6B6D00701830 /* GoogleAnalyticsForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FE3E49719AC6B6D00701830 /* Build configuration list for PBXNativeTarget "GoogleAnalyticsForMac" */;
+			buildPhases = (
+				4FE3E46219AC6B6D00701830 /* Sources */,
+				4FE3E46319AC6B6D00701830 /* Frameworks */,
+				4FE3E46419AC6B6D00701830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleAnalyticsForMac;
+			productName = GoogleAnalyticsForMac;
+			productReference = 4FE3E46619AC6B6D00701830 /* GoogleAnalyticsForMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FE3E48619AC6B6D00701830 /* GoogleAnalyticsForMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FE3E49A19AC6B6D00701830 /* Build configuration list for PBXNativeTarget "GoogleAnalyticsForMacTests" */;
+			buildPhases = (
+				4FE3E48319AC6B6D00701830 /* Sources */,
+				4FE3E48419AC6B6D00701830 /* Frameworks */,
+				4FE3E48519AC6B6D00701830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FE3E48C19AC6B6D00701830 /* PBXTargetDependency */,
+			);
+			name = GoogleAnalyticsForMacTests;
+			productName = GoogleAnalyticsForMacTests;
+			productReference = 4FE3E48719AC6B6D00701830 /* GoogleAnalyticsForMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FE3E45E19AC6B6D00701830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Kfir Schindelhaim";
+				TargetAttributes = {
+					4FE3E48619AC6B6D00701830 = {
+						TestTargetID = 4FE3E46519AC6B6D00701830;
+					};
+				};
+			};
+			buildConfigurationList = 4FE3E46119AC6B6D00701830 /* Build configuration list for PBXProject "GoogleAnalyticsForMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FE3E45D19AC6B6D00701830;
+			productRefGroup = 4FE3E46719AC6B6D00701830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FE3E46519AC6B6D00701830 /* GoogleAnalyticsForMac */,
+				4FE3E48619AC6B6D00701830 /* GoogleAnalyticsForMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FE3E46419AC6B6D00701830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE3E47419AC6B6D00701830 /* InfoPlist.strings in Resources */,
+				4FE3E48219AC6B6D00701830 /* Images.xcassets in Resources */,
+				4FE3E47A19AC6B6D00701830 /* Credits.rtf in Resources */,
+				4FE3E48019AC6B6D00701830 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE3E48519AC6B6D00701830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE3E49219AC6B6D00701830 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FE3E46219AC6B6D00701830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE3E4FF19AC7B1500701830 /* AnalyticsManager.m in Sources */,
+				4FE3E50119AC7B1500701830 /* GATracker.m in Sources */,
+				4FE3E47D19AC6B6D00701830 /* AppDelegate.m in Sources */,
+				4FE3E50219AC7B1500701830 /* GAUtils.m in Sources */,
+				4FE3E47619AC6B6D00701830 /* main.m in Sources */,
+				4FE3E50019AC7B1500701830 /* GARequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE3E48319AC6B6D00701830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE3E49419AC6B6D00701830 /* GoogleAnalyticsForMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FE3E48C19AC6B6D00701830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FE3E46519AC6B6D00701830 /* GoogleAnalyticsForMac */;
+			targetProxy = 4FE3E48B19AC6B6D00701830 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FE3E47219AC6B6D00701830 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FE3E47319AC6B6D00701830 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4FE3E47819AC6B6D00701830 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FE3E47919AC6B6D00701830 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4FE3E47E19AC6B6D00701830 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FE3E47F19AC6B6D00701830 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4FE3E49019AC6B6D00701830 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FE3E49119AC6B6D00701830 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FE3E49519AC6B6D00701830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4FE3E49619AC6B6D00701830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4FE3E49819AC6B6D00701830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleAnalyticsForMac/3rd",
+					Party,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleAnalyticsForMac/GoogleAnalyticsForMac-Prefix.pch";
+				INFOPLIST_FILE = "GoogleAnalyticsForMac/GoogleAnalyticsForMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4FE3E49919AC6B6D00701830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleAnalyticsForMac/3rd",
+					Party,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleAnalyticsForMac/GoogleAnalyticsForMac-Prefix.pch";
+				INFOPLIST_FILE = "GoogleAnalyticsForMac/GoogleAnalyticsForMac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4FE3E49B19AC6B6D00701830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleAnalyticsForMac.app/Contents/MacOS/GoogleAnalyticsForMac";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleAnalyticsForMac/GoogleAnalyticsForMac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GoogleAnalyticsForMacTests/GoogleAnalyticsForMacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4FE3E49C19AC6B6D00701830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoogleAnalyticsForMac.app/Contents/MacOS/GoogleAnalyticsForMac";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleAnalyticsForMac/GoogleAnalyticsForMac-Prefix.pch";
+				INFOPLIST_FILE = "GoogleAnalyticsForMacTests/GoogleAnalyticsForMacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FE3E46119AC6B6D00701830 /* Build configuration list for PBXProject "GoogleAnalyticsForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE3E49519AC6B6D00701830 /* Debug */,
+				4FE3E49619AC6B6D00701830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FE3E49719AC6B6D00701830 /* Build configuration list for PBXNativeTarget "GoogleAnalyticsForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE3E49819AC6B6D00701830 /* Debug */,
+				4FE3E49919AC6B6D00701830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FE3E49A19AC6B6D00701830 /* Build configuration list for PBXNativeTarget "GoogleAnalyticsForMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE3E49B19AC6B6D00701830 /* Debug */,
+				4FE3E49C19AC6B6D00701830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FE3E45E19AC6B6D00701830 /* Project object */;
+}
